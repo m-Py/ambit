@@ -1,0 +1,14 @@
+Package: ambit
+Type: Package
+Title: Extracting Data from Openambit Logs for Suunto Ambit Watches
+Version: 0.0.1
+Date: 2021-02-23
+Author: Martin Papenberg [aut, cre] (<https://orcid.org/0000-0002-9900-4268>)
+Maintainer: Martin Papenberg <martin.papenberg@hhu.de>
+Description: Reads GPS data, altitude data and general information from openambit XML log 
+  files and converts them to R data structures. Log data has to be generated using
+  the software 'openambit' (<https://github.com/openambitproject/openambit).
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+Imports: xml2
