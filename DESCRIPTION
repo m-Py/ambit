@@ -1,6 +1,6 @@
 Package: ambit
 Type: Package
-Title: Extracting Data from Openambit Logs for Suunto Ambit Watches
+Title: Extract Data from Openambit Logs for Suunto Ambit Watches
 Version: 0.0.1
 Date: 2021-02-23
 Author: Martin Papenberg [aut, cre] (<https://orcid.org/0000-0002-9900-4268>)
