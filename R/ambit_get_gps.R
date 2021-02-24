@@ -27,7 +27,6 @@ type_nodes_from_xml <- function(xml, type) {
   log_data <- xml_child(xml, "Log")
   samples <- xml_child(log_data, "Samples")
   samples <- xml_children(samples)
-  selector <- grepl(pattern = type, x = xml_text(samples)) # select gps samples
+  selector <- grepl(pattern = type, x = xml_text(samples))
   samples[selector]
 }
-
