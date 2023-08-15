@@ -7,7 +7,7 @@
 #'    the track.
 #' @export
 #' 
-#' @importFrom xml2 xml_integer
+#' @importFrom xml2 xml_integer as_list
 #' 
 
 ambit_get_altitude <- function(log_file) {
